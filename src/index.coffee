@@ -35,16 +35,6 @@ export default ( Genie ) ->
     T.write "build/${ build.preset }"
   ]
   
-  # TODO migrate to a separate node test preset?
-  # Genie.define "civet:test", "build", ->
-  #   if await exists "build/node/test/index.js"
-  #     sh "node
-  #       --enable-source-maps
-  #       --trace-warnings
-  #       --unhandled-rejections=strict
-  #       build/node/test/index.js"
-  #   else
-  #     console.warn "no tests defined"
 
   # Genie.on "test", "civet:test"
 
