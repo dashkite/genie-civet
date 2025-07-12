@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@dashkite/masonry':
-        specifier: link:../masonry
-        version: link:../masonry
+        specifier: 0.14.0
+        version: 0.14.0
       '@dashkite/masonry-civet':
         specifier: link:../masonry-civet
         version: link:../masonry-civet
@@ -630,6 +630,9 @@ packages:
 
   '@dashkite/masonry@0.13.0':
     resolution: {integrity: sha512-qGP0Ortn8tzBTY9BRv965V5IIhJCmsNMTjLq0X7Pk80lBgNROc+tV/5BXjziBZ9CG7fcJ5h3ZvCsl1f6byfsFQ==}
+
+  '@dashkite/masonry@0.14.0':
+    resolution: {integrity: sha512-5POHf/fpqgFba4Xbrr8oNHIpkKTD1WgFTZMjBZBvluv8YBWzLayAd9l4R0TYy+MybBVFFJ2Tj7v5DlIu6dPgvw==}
 
   '@dashkite/zephyr@0.2.0':
     resolution: {integrity: sha512-l3Fm9nyOIp1yBnv4IzGOKVgo1/UucU5WLvsqAfcP2jEVlE4AgpPkODssyloxTyC3N+bhcz1DXqC/7KokI1eVjA==}
@@ -1475,7 +1478,7 @@ snapshots:
       '@babel/traverse': 7.28.0
       '@babel/types': 7.28.0
       convert-source-map: 1.9.0
-      debug: 4.4.0
+      debug: 4.4.1
       gensync: 1.0.0-beta.2
       json5: 2.2.3
       semver: 6.3.1
@@ -1527,7 +1530,7 @@ snapshots:
       '@babel/core': 7.22.15
       '@babel/helper-compilation-targets': 7.27.2
       '@babel/helper-plugin-utils': 7.27.1
-      debug: 4.4.0
+      debug: 4.4.1
       lodash.debounce: 4.0.8
       resolve: 1.22.10
     transitivePeerDependencies:
@@ -1538,7 +1541,7 @@ snapshots:
       '@babel/core': 7.22.15
       '@babel/helper-compilation-targets': 7.27.2
       '@babel/helper-plugin-utils': 7.27.1
-      debug: 4.4.0
+      debug: 4.4.1
       lodash.debounce: 4.0.8
       resolve: 1.22.10
     transitivePeerDependencies:
@@ -2163,7 +2166,7 @@ snapshots:
       '@babel/parser': 7.28.0
       '@babel/template': 7.27.2
       '@babel/types': 7.28.0
-      debug: 4.4.0
+      debug: 4.4.1
     transitivePeerDependencies:
       - supports-color
 
@@ -2224,6 +2227,17 @@ snapshots:
       fast-glob: 3.3.3
 
   '@dashkite/masonry@0.13.0':
+    dependencies:
+      '@babel/core': 7.22.15
+      '@babel/preset-env': 7.22.15(@babel/core@7.22.15)
+      '@dashkite/joy': 0.3.16
+      chalk: 4.1.2
+      chokidar: 3.6.0
+      fast-glob: 3.3.3
+    transitivePeerDependencies:
+      - supports-color
+
+  '@dashkite/masonry@0.14.0':
     dependencies:
       '@babel/core': 7.22.15
       '@babel/preset-env': 7.22.15(@babel/core@7.22.15)

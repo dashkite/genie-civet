@@ -41,7 +41,7 @@
     "@dashkite/genie-release": "^0.2.3"
   },
   "dependencies": {
-    "@dashkite/masonry": "link:../masonry",
+    "@dashkite/masonry": "0.14.0",
     "@dashkite/masonry-civet": "link:../masonry-civet",
     "@dashkite/masonry-targets": "0.2.0",
     "chalk": "^4.1.2",
