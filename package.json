@@ -43,7 +43,7 @@
   "dependencies": {
     "@dashkite/masonry": "link:../masonry",
     "@dashkite/masonry-civet": "link:../masonry-civet",
-    "@dashkite/masonry-targets": "link:../masonry-targets",
+    "@dashkite/masonry-targets": "0.2.0",
     "chalk": "^4.1.2",
     "eslint": "^9.20.1",
     "execa": "^5.1.1"
