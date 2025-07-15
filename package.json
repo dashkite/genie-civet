@@ -1,6 +1,6 @@
 {
   "name": "@dashkite/genie-civet",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Genie task for building Civit source files",
   "keywords": [],
   "homepage": "https://github.com/dashkite/genie-civet#readme",
