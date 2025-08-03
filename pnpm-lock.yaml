@@ -9,13 +9,13 @@ importers:
   .:
     dependencies:
       '@dashkite/masonry':
-        specifier: 0.21.0
+        specifier: ^0.21.0
         version: 0.21.0
       '@dashkite/masonry-civet':
-        specifier: 0.8.0
+        specifier: ^0.8.0
         version: 0.8.0(typescript@5.8.3)
       '@dashkite/masonry-targets':
-        specifier: 0.9.0
+        specifier: ^0.9.0
         version: 0.9.0
       chalk:
         specifier: ^4.1.2
@@ -37,13 +37,13 @@ importers:
         specifier: ^0.3.0
         version: 0.3.0
       '@dashkite/genie':
-        specifier: 0.20.4
+        specifier: ^0.20.4
         version: 0.20.4
       '@dashkite/genie-clean':
-        specifier: 0.9.0
+        specifier: ^0.9.0
         version: 0.9.0
       '@dashkite/genie-coffee':
-        specifier: 0.9.0
+        specifier: ^0.9.0
         version: 0.9.0
       '@dashkite/genie-release':
         specifier: ^0.3.0
